@@ -8,5 +8,5 @@ Click`功能栏->导入->选择dcm序列文件中的一个dcm文件`。Wait for 
 <br/>
 
 ### Show the segment results
-Click`功能栏->导入->选择dcm序列文件中的一个dcm文件`，an .npy file that stores all segment results is saved in `./`，then click `功能栏->分割` to show the segment results.
+Click`功能栏->分割`，an .npy file that stores all segment results is saved in `./`，then organ in the left column to show segment results.
 ![分割](result_imgs/分割.JPG)
