@@ -1,18 +1,12 @@
-**已实现的基本功能**
-1. 读取dcm序列并显示
-2. 使用与训练的Unet网络分割脑干
-
-**待实现功能**
-1. 多器官分割网络的训练
-2. GUI交互优化
-
 <br/>
 
-#### 效果演示
-点击`功能栏->导入->选择dcm序列文件中的一个dcm文件`。等待几秒钟可完全导入，用滚轮切换dcm切片。
+## Results
+### Display CT slices in three views
+Click`功能栏->导入->选择dcm序列文件中的一个dcm文件`。Wait for sceconds till the DCM file is fully loaded, use mouse wheel to switch different slices.
 ![显示](result_imgs/显示.png)
 
 <br/>
 
-点击`功能栏->导入->选择dcm序列文件中的一个dcm文件`，等分割结束后会在当前目录下生成每一层的.npy分割文件，之后再点击`功能栏->分割`。
+### Show the segment results
+Click`功能栏->导入->选择dcm序列文件中的一个dcm文件`，an .npy file that stores all segment results is saved in `./`，then click `功能栏->分割` to show the segment results.
 ![分割](result_imgs/分割.JPG)
